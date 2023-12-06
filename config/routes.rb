@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   # root "articles#index"
 
 get "/artists" => "artists#index"
+get "/top_artists" => "top_artists#index"
 end
